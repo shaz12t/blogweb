@@ -16,5 +16,5 @@ password:{
 
 }
 })
-const User = mongoose.model('User', userSchema);
+const user = mongoose.model('user', userSchema);
 export default user;
